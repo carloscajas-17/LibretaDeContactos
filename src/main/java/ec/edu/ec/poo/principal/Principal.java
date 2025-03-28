@@ -9,6 +9,11 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Persona persona = new Persona();
+        persona.setApellido(scanner.nextLine());
+        persona.setNombre(scanner.nextLine());
+        persona.setDireccion(scanner.nextLine());
+
 
         // Ingreso de personas
         System.out.println("Ingrese la cantidad de personas:");
