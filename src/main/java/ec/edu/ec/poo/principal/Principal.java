@@ -16,6 +16,7 @@ public class Principal {
 
 
         // Ingreso de personas
+        System.out.println("NOTIFICACION DE PABLO");
         System.out.println("Ingrese la cantidad de personas:");
         int nPersonas = scanner.nextInt();
         Persona[] personas = new Persona[nPersonas];
